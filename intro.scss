@@ -1,0 +1,60 @@
+@import "../../global.scss";
+
+.intro{
+    //background-color:(240,236,235);
+    display: flex;
+
+    .left{
+        flex: 0.4;
+        overflow: hidden;
+
+        .top{
+            
+            padding: 30px 50px;
+            font-size: 80px;
+            font-weight: 300;
+            display: inherit;
+            align-items: center;
+            color: rgb(118, 28, 126);
+            
+        }
+        .middle{
+            padding: 10px 130px;
+            font-weight: 300;
+            font-size: 50px;
+            display: inherit;
+            
+            align-items: center;
+            color: rgb(43, 28, 126);
+            
+        }
+        .bottom{
+            margin-top: 60px;
+            margin-left: 240px;
+            font-weight: 300;
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            color: rgb(118, 28, 126);
+            
+        }
+    }
+    .right{
+        flex: 0.6;
+        overflow: hidden;
+
+        .imgContainer{
+            width: 850px;
+            height: 850px;
+            background-color:rgb(238, 50, 51);;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                height: 80%;
+            }
+        }
+    }
+}
